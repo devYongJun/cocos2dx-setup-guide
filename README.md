@@ -42,7 +42,12 @@ cocos new <프로젝트이름> -p com.your_company.mygame -l cpp -d <새 프로�
 cd <새 프로젝트 경로>/<프로젝트이름>
 mkdir build
 cd build
-cocos run --proj-dir .. -p [mac|windows|android|linux|ios]
+cocos run <프로젝트경로> -p <빌드플랫폼> -m <release or debug>
+cocos run .. -p mac -m release
 ```
 
-
+4-1. No CMAKE_C_COMPILER could be found 에러
+```
+sudo xcode-select --reset
+다시 cocos run ...
+```
