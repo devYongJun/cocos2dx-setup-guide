@@ -33,7 +33,7 @@ git submodule update
 
 6. 새 프로젝트 경로로 이동
 ```
-cd <2에서 받은 깃허브프로젝트폴더>
+cd <2에서 받은 깃허브 프로젝트 폴더>
 ```
 
 7. 환경변수 업데이트
@@ -49,7 +49,7 @@ cocos -v
 
 9. 새 Cocos 프로젝트 생성
 ```
-cocos new <프로젝트이름> -p com.your_company.mygame -l cpp -d <새 프로젝트 경로>
+cocos new <프로젝트 이름> -p com.your_company.mygame -l cpp -d <새 프로젝트 경로>
 ```
 
 9-1. MacOS 프로젝트 생성
@@ -70,10 +70,10 @@ open Cocos2d-x.xcodeproj
 
 10. 실행
 ```
-cd <새 프로젝트 경로>/<프로젝트이름>
+cd <프로젝트 경로>/<프로젝트이름>
 mkdir build
 cd build
-cocos run <프로젝트경로> -p <빌드플랫폼> -m <release or debug>
+cocos run <프로젝트 경로> -p <빌드플랫폼> -m <release or debug>
 cocos run .. -p mac -m release
 ```
 
