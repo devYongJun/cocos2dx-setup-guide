@@ -54,7 +54,7 @@ cocos new <프로젝트이름> -p com.your_company.mygame -l cpp -d <새 프로�
 
 9-1. MacOS 프로젝트 생성
 ```
-cd cocos2d-x
+cd <프로젝트 경로>
 mkdir mac-build && cd mac-build
 cmake .. -GXcode
 open Cocos2d-x.xcodeproj
@@ -62,7 +62,7 @@ open Cocos2d-x.xcodeproj
 
 9-2. iOS 프로젝트 생성
 ```
-cd cocos2d-x
+cd <프로젝트 경로>
 mkdir ios-build && cd ios-build
 cmake .. -GXcode -DCMAKE_SYSTEM_NAME=iOS -DCMAKE_OSX_SYSROOT=iphoneos
 open Cocos2d-x.xcodeproj
